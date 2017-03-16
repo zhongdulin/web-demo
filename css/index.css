@@ -1,0 +1,41 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-16 22:12:38
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-03-16 22:17:07
+*/
+* {
+	margin: 0;
+	padding: 0;
+}
+.box {
+	width: 400px;
+	height: 220px;
+	border: 1px solid #c0c0c0;
+	margin: 100px auto;
+	overflow: hidden;
+}
+.box #dt {
+	width: 400px;
+	height: 20px;
+}
+.box #dt span {
+	width: 90px;
+	height: 20px;
+	background-color: #FFE793;
+	margin: 0 5px;
+	float: left;
+	cursor: pointer;
+}
+.box #dt .current {
+	background-color: #ff0;
+}
+.box #content {
+	width: 400px;
+	height: 800px;
+}
+#content div {
+	width: 400px;
+	height: 200px;
+	background-color: #ff0;
+}
